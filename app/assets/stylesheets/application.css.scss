@@ -16,11 +16,15 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
+//typography styles
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
+//background gradient
 .navbar, .home-callout {
     // gradient provided by uiGradients.com
     background: #0575E6;  /* fallback for old browsers */
@@ -28,6 +32,7 @@ h1, h2, h3 {
     background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+// navbar styles
 .navbar {
     border: none;
 }
@@ -41,6 +46,7 @@ h1, h2, h3 {
     }
 }
 
+// Homepage styles
 .home-callout {
     margin-top: -20px;
     padding-top: 50px;
